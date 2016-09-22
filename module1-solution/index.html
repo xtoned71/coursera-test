@@ -18,13 +18,11 @@
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control">
              <span class="glyphicon form-control-feedback {{inputStyle}}"></span>
-             <div class="form-group message">You inserted {{emptyItems}} empty items</div>
+             <div class="form-group message">You inserted {{emptyItems}} empty item/s</div>
          <div class="form-group">
              <button class="btn btn-primary" ng-click="checkLunchItems()" >Check If Too Much</button>
          </div>
-         <div class="form-group message {{messageStyle}}">
-        Messaggio:   {{outputMessage}}
-         </div>
+         <div class="form-group message {{messageStyle}}">{{outputMessage}}</div>
        </div>
  </div>
    <script src="angular.min.js"></script>
